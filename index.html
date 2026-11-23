@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="tukinoの経歴と個人制作。ITコンサルティング、ロボティクス、3Dプリント。">
+  <title>tukino | 経歴と制作物</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: system-ui, sans-serif;
+      color: #17232c;
+      background: #fafaf7;
+    }
+    body {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: clamp(2rem, 8vw, 5rem) 1.25rem 3rem;
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+    h1, h2, h3 { line-height: 1.35; }
+    h1 { font-size: clamp(2.5rem, 8vw, 4rem); margin: 0 0 .75rem; }
+    h2 { font-size: 1.4rem; margin: 0 0 .75rem; }
+    h3 { font-size: 1.1rem; margin: 0 0 .3rem; }
+    p { margin: 0 0 .75rem; }
+    section { margin-top: 2.5rem; }
+    article { padding: 1rem 0; border-top: 1px solid #cad4d1; }
+    article p { margin: 0; }
+    footer { margin-top: 1.5rem; }
+    a { color: #075c75; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>つきの</h1>
+      <p>ITコンサルタント。個人では、ロボティクスの学習と3Dプリントを使った試作に取り組んでいます。</p>
+    </header>
+
+    <section aria-labelledby="experience">
+      <h2 id="experience">経歴</h2>
+      <p>システムエンジニアを経て、ITコンサルタントとして業務要件の整理やシステム設計を担当してきました。主な経験領域は、業務・データ設計と認証認可です。</p>
+    </section>
+
+    <section aria-labelledby="projects">
+      <h2 id="projects">個人制作・学習記録</h2>
+      <article>
+        <h3><a href="https://github.com/tukino/robotics-math-study">ロボティクスの数学</a></h3>
+        <p>関節角からアームの先端位置を計算する順運動学を、1リンクと2リンクの例で学ぶノートブックです。</p>
+      </article>
+      <article>
+        <h3><a href="https://github.com/tukino/ros2-medical-physical-ai">ROS 2の学習・実装記録</a></h3>
+        <p>ロボットシステム開発の基礎を学ぶための、ROS 2の実装と検証の記録です。</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/tukino">GitHubプロフィール</a>
+  </footer>
+</body>
+</html>
